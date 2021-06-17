@@ -1,7 +1,3 @@
-import { Observable, Observer } from "rxjs";
-
-const observer: Observer<any> = {
-  next: value => console.log('next:', value),
-  error: error => console.warn('error:', error),
-  complete: () => console.info('complete')
-}
+// export * from './observables/01-observable';
+// export * from './observables/02-unsubscribe-add';
+export * from './observables/03-subject';
