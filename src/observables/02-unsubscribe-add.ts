@@ -38,7 +38,7 @@ subscription
 
 setTimeout(() => {
   // subscription.unsubscribe()
-  // subscription.unsubscribe() // Al haber ejecutado un complete, no vuelve a ejecutarse
+  // subscription.unsubscribe() // Al haber ejecutado un complete, no vuelve a ejecutarse el unsubscribe
   // subscription2.unsubscribe()
   // subscription3.unsubscribe()
 
