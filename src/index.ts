@@ -3,4 +3,5 @@
 // export * from './observables/03-subject';
 
 // Funciones para crear Observables
-export * from './observables/04-of';
+// export * from './observables/04-of';
+export * from './observables/05-fromEvent';
