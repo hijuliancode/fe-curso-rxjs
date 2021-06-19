@@ -11,4 +11,5 @@
 // export * from './observables/09-from-of-ejemplos';
 
 // Operators
-export * from './operadores/01-map';
+// export * from './operadores/01-map';
+export * from './operadores/02-pluck';
