@@ -12,4 +12,5 @@
 
 // Operators
 // export * from './operadores/01-map';
-export * from './operadores/02-pluck';
+// export * from './operadores/02-pluck';
+export * from './operadores/03-mapTo';
