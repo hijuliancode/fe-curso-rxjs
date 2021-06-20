@@ -17,7 +17,10 @@
 // export * from './operadores/04-filter'
 // export * from './operadores/05-tap'
 // export * from './operadores/06-reducer';
-export * from './operadores/07-scan';
+// export * from './operadores/07-scan';
+
+// Operators no comunes
+export * from './operadores-no-comunes/01-take'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
