@@ -27,7 +27,14 @@
 // export * from './operadores-no-comunes/05-skip'
 // export * from './operadores-no-comunes/06-distinct'
 // export * from './operadores-no-comunes/07-distinctUntilChanged'
-export * from './operadores-no-comunes/08-distinctUntilKeyChanged'
+// export * from './operadores-no-comunes/08-distinctUntilKeyChanged'
+
+// Operadores que trabajan con tiempo
+export * from './operadores-de-tiempo/01-debounceTime'
+export * from './operadores-de-tiempo/02-throttleTime'
+export * from './operadores-de-tiempo/03-sampleTime'
+export * from './operadores-de-tiempo/04-sample'
+export * from './operadores-de-tiempo/05-auditTime'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
