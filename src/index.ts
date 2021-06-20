@@ -21,7 +21,8 @@
 
 // Operators no comunes
 // export * from './operadores-no-comunes/01-take'
-export * from './operadores-no-comunes/02-first'
+// export * from './operadores-no-comunes/02-first'
+export * from './operadores-no-comunes/03-takeWhile';
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
