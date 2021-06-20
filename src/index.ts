@@ -16,6 +16,7 @@
 // export * from './operadores/03-mapTo';
 // export * from './operadores/04-filter'
 // export * from './operadores/05-tap'
+export * from './operadores/06-reducer';
 
 // Laboratorio
-export * from './laboratorio/01-progress-bar';
+// export * from './laboratorio/01-progress-bar';
