@@ -1,5 +1,5 @@
-import { from, Observer, range } from 'rxjs'
-import { filter } from 'rxjs/operators'
+import { from, fromEvent, Observer, range } from 'rxjs'
+import { filter, pluck } from 'rxjs/operators'
 
 const observer:Observer<unknown> = {
   next: val => console.log(val),
@@ -41,3 +41,13 @@ const personajes:Personaje[] = [
 from(personajes).pipe(
   filter(elm => elm.type !== 'hero')
 ).subscribe( observer )
+
+
+// Ejercicio
+
+const keyup$ = fromEvent<KeyboardEvent>(document, 'keyup').pipe(
+  pluck('code'),
+  filter(key => key === 'Enter')
+)
+
+keyup$.subscribe( observer )
