@@ -23,7 +23,8 @@
 // export * from './operadores-no-comunes/01-take'
 // export * from './operadores-no-comunes/02-first'
 // export * from './operadores-no-comunes/03-takeWhile';
-export * from './operadores-no-comunes/04-takeUntil';
+// export * from './operadores-no-comunes/04-takeUntil';
+export * from './operadores-no-comunes/05-skip'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
