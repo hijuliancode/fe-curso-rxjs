@@ -1,5 +1,5 @@
 import { fromEvent, Observer } from 'rxjs';
-import { first, tap } from 'rxjs/operators'
+import { first, map, tap } from 'rxjs/operators'
 
 const observer: Observer<unknown> = {
   next: val => console.log('next:', val),
@@ -10,8 +10,15 @@ const observer: Observer<unknown> = {
 const click$ = fromEvent<MouseEvent>( document, 'click' )
 
 click$.pipe(
-  tap( (t) => console.log('tap') ),
-  first<MouseEvent>(ev => ev.clientY >= 150)
+  tap<MouseEvent>( (t) => console.log('tap', t) ),
+  // map( event => ({
+  //   clientX: event.clientX,
+  //   clientY: event.clientY,
+  // }) ),
+  map( ({clientX, clientY}) => ({
+    clientX, clientY})
+  ),
+  first(ev => ev.clientY >= 150)
 ).subscribe( observer )
 
 
