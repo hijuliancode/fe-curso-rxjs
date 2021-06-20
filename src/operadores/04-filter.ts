@@ -47,7 +47,8 @@ from(personajes).pipe(
 
 const keyup$ = fromEvent<KeyboardEvent>(document, 'keyup').pipe(
   pluck('code'),
-  filter(key => key === 'Enter')
+  filter(key => key === 'Enter') // únicamente se activa cuando se da click en enter
+  
 )
 
 keyup$.subscribe( observer )
