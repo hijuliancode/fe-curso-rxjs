@@ -25,7 +25,8 @@
 // export * from './operadores-no-comunes/03-takeWhile';
 // export * from './operadores-no-comunes/04-takeUntil';
 // export * from './operadores-no-comunes/05-skip'
-export * from './operadores-no-comunes/06-distinct'
+// export * from './operadores-no-comunes/06-distinct'
+export * from './operadores-no-comunes/07-distinctUntilChanged'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
