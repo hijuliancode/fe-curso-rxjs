@@ -14,4 +14,5 @@
 // export * from './operadores/01-map';
 // export * from './operadores/02-pluck';
 // export * from './operadores/03-mapTo';
-export * from './operadores/04-filter'
+// export * from './operadores/04-filter'
+export * from './operadores/05-tap'
