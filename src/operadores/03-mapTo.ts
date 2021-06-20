@@ -6,6 +6,9 @@ const keyup$ = fromEvent<KeyboardEvent>(document, 'keyup').pipe(
   map(val => val),
   mapTo('Tecla presionada. (mensaje constante)')
 )
+const click$ = fromEvent<MouseEvent>(document, 'click').pipe(
+  mapTo('Click hecho')
+)
 
 const observer: Observer<any> = {
   next: val => console.log(val),
@@ -14,3 +17,4 @@ const observer: Observer<any> = {
 }
 
 keyup$.subscribe( observer )
+click$.subscribe( observer )
