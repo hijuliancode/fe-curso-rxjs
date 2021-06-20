@@ -20,7 +20,8 @@
 // export * from './operadores/07-scan';
 
 // Operators no comunes
-export * from './operadores-no-comunes/01-take'
+// export * from './operadores-no-comunes/01-take'
+export * from './operadores-no-comunes/02-first'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
