@@ -34,7 +34,10 @@
 // export * from './operadores-de-tiempo/02-throttleTime'
 // export * from './operadores-de-tiempo/03-sampleTime'
 // export * from './operadores-de-tiempo/04-sample'
-export * from './operadores-de-tiempo/05-auditTime'
+// export * from './operadores-de-tiempo/05-auditTime'
+
+// Peticiones AJAX con RXJS
+export * from './peticiones-ajax/fetch-api'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
