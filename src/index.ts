@@ -32,7 +32,7 @@
 // Operadores que trabajan con tiempo
 // export * from './operadores-de-tiempo/01-debounceTime'
 // export * from './operadores-de-tiempo/02-throttleTime'
-export * from './operadores-de-tiempo/03-sampleTime'
+// export * from './operadores-de-tiempo/03-sampleTime'
 export * from './operadores-de-tiempo/04-sample'
 export * from './operadores-de-tiempo/05-auditTime'
 
