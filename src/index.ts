@@ -39,7 +39,8 @@
 // Peticiones AJAX con RXJS
 // export * from './peticiones-ajax/00-fetch-api'
 // export * from './peticiones-ajax/01-ajax'
-export * from './peticiones-ajax/02-getJson'
+// export * from './peticiones-ajax/02-getJson'
+export * from './peticiones-ajax/03-getJson-&-ajax-diferencia';
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
