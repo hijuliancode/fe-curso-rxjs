@@ -37,7 +37,8 @@
 // export * from './operadores-de-tiempo/05-auditTime'
 
 // Peticiones AJAX con RXJS
-export * from './peticiones-ajax/fetch-api'
+// export * from './peticiones-ajax/fetch-api'
+export * from './peticiones-ajax/ajax'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
