@@ -41,7 +41,10 @@
 // export * from './peticiones-ajax/01-ajax'
 // export * from './peticiones-ajax/02-getJson'
 // export * from './peticiones-ajax/03-getJson-&-ajax-diferencia';
-export * from "./peticiones-ajax/04-post-put-delete";
+// export * from "./peticiones-ajax/04-post-put-delete";
+
+// Operadores de transformacion
+export * from './operadores-de-transformacion/00-explicacion'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
