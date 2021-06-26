@@ -44,7 +44,8 @@
 // export * from "./peticiones-ajax/04-post-put-delete";
 
 // Operadores de transformacion
-export * from './operadores-de-transformacion/00-explicacion'
+// export * from './operadores-de-transformacion/00-explicacion'
+export * from './operadores-de-transformacion/01-mergeAll'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
