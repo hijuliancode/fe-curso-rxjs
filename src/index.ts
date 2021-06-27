@@ -56,9 +56,9 @@
 
 // Operadores y metodos de combinacion de observables
 // export * from './operadores-metodos-combinacion-observables/01-startWith'
-export * from './operadores-metodos-combinacion-observables/01-startWith-lab'
+// export * from './operadores-metodos-combinacion-observables/01-startWith-lab'
 // export * from './operadores-metodos-combinacion-observables/02-endWith'
-// export * from './operadores-metodos-combinacion-observables/03-concat'
+export * from './operadores-metodos-combinacion-observables/03-concat-func'
 // export * from './operadores-metodos-combinacion-observables/04-merge'
 // export * from './operadores-metodos-combinacion-observables/05-combineLatest'
 // export * from './operadores-metodos-combinacion-observables/06-forkJoin'
