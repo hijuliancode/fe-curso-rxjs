@@ -47,7 +47,8 @@
 // export * from './operadores-de-transformacion/00-explicacion'
 // export * from './operadores-de-transformacion/01-mergeAll'
 // export * from './operadores-de-transformacion/02-mergeMap'
-export * from './operadores-de-transformacion/02-mergeMap-api'
+// export * from './operadores-de-transformacion/02-mergeMap-api'
+export * from './operadores-de-transformacion/03-switchMap'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
