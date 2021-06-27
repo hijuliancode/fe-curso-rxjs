@@ -52,7 +52,15 @@
 // export * from './operadores-de-transformacion/04-mergeMap-vs-switchMap'
 // export * from './operadores-de-transformacion/05-concatMap'
 // export * from './operadores-de-transformacion/06-exhaustMap'
-export * from './operadores-de-transformacion/07-laboratorio-aplanamiento'
+// export * from './operadores-de-transformacion/07-laboratorio-aplanamiento'
+
+// Operadores y metodos de combinacion de observables
+export * from './operadores-metodos-combinacion-observables/01-startWith'
+// export * from './operadores-metodos-combinacion-observables/02-endWidth'
+// export * from './operadores-metodos-combinacion-observables/03-concat'
+// export * from './operadores-metodos-combinacion-observables/04-merge'
+// export * from './operadores-metodos-combinacion-observables/05-combineLatest'
+// export * from './operadores-metodos-combinacion-observables/06-forkJoin'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
