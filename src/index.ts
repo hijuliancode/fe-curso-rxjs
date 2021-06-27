@@ -51,7 +51,8 @@
 // export * from './operadores-de-transformacion/03-switchMap'
 // export * from './operadores-de-transformacion/04-mergeMap-vs-switchMap'
 // export * from './operadores-de-transformacion/05-concatMap'
-export * from './operadores-de-transformacion/06-exhaustMap'
+// export * from './operadores-de-transformacion/06-exhaustMap'
+export * from './operadores-de-transformacion/07-laboratorio-aplanamiento'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
