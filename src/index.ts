@@ -49,7 +49,8 @@
 // export * from './operadores-de-transformacion/02-mergeMap'
 // export * from './operadores-de-transformacion/02-mergeMap-api'
 // export * from './operadores-de-transformacion/03-switchMap'
-export * from './operadores-de-transformacion/04-mergeMap-vs-switchMap'
+// export * from './operadores-de-transformacion/04-mergeMap-vs-switchMap'
+export * from './operadores-de-transformacion/05-concatMap'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
