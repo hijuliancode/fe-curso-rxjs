@@ -60,8 +60,8 @@
 // export * from './operadores-metodos-combinacion-observables/02-endWith'
 // export * from './operadores-metodos-combinacion-observables/03-concat-func'
 // export * from './operadores-metodos-combinacion-observables/04-merge'
-export * from './operadores-metodos-combinacion-observables/05-combineLatest'
-// export * from './operadores-metodos-combinacion-observables/06-forkJoin'
+// export * from './operadores-metodos-combinacion-observables/05-combineLatest'
+export * from './operadores-metodos-combinacion-observables/06-forkJoin'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
