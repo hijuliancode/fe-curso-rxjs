@@ -45,7 +45,8 @@
 
 // Operadores de transformacion
 // export * from './operadores-de-transformacion/00-explicacion'
-export * from './operadores-de-transformacion/01-mergeAll'
+// export * from './operadores-de-transformacion/01-mergeAll'
+export * from './operadores-de-transformacion/02-mergeMap'
 
 // Laboratorio
 // export * from './laboratorio/01-progress-bar';
